@@ -1,0 +1,144 @@
+@media only screen and (max-width:600px)   {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        width: 100%;
+    }
+    
+    .navbar-logo-img{
+        width: 2rem;
+        height: 4rem;
+    }
+    
+    .navbar-logo{
+    margin-top: 1rem;
+    }
+
+    .button{
+        margin-top: 2rem;
+        display: none;
+    
+    }
+
+    .navbar-list{
+        display: none;
+        margin-left: 0;
+        
+    }
+    .landing-content{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    hr{
+        width: 20rem;
+    }
+
+    .landing-para {
+       text-align: justify 
+    }
+
+    .landing-right {
+        display: none;
+    }
+    .search-btn input{
+        width: 15rem;
+    }
+    .search-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .job-listing{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        
+    }
+    .image{
+        display: none;
+    }
+
+    .intro{
+        display:flex;
+        flex-direction:column ;
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    
+    .stats{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+      }
+
+      .stat-image{
+        width: 2rem;
+        height: 4rem;
+      }
+      
+    .improvements{
+        width: 100%;
+    }
+    .imp{
+        display: flex;
+        flex-direction: column;
+    }
+    .project2hire-working{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .working-def{
+        margin: 0;
+        
+    }
+    .project2hire-para{
+        width: 100%;
+    }
+    .youtube-img{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .project2hire-search{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+        gap:1rem
+    }
+    .project2hire-search input{
+        margin-left: 0;
+        width: 10rem;
+        height: 3rem;
+        border-radius: 1rem;
+    }
+    .review-by-users{
+        display: flex;
+        flex-direction: column;
+    }
+    .review-article{
+        width: 80%;
+    }
+    .project2hire-video{
+        display: flex;
+        flex-direction: column;
+    }
+    .youtube-pic{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .user-review{
+        display: flex;
+        flex-direction: column;
+    }
+    .ratings{
+        width: 60%;
+    }
+    .skillset{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+    
